@@ -61,6 +61,7 @@
         </nav>
     </div>
 
+    <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="Belgrade" data-label_2="WEATHER" data-theme="original">Belgrade WEATHER</a>
 
 
     <div id="videoDiv2">
@@ -86,15 +87,15 @@
             <div id="videoMessage1" class="styling">
 
                 <p class="videoClick">
-                    <a href="viber://chat/?number=%2B381644808703"><img class="imgicon" src="images/viber.png" alt="viber" width="50"> </a>
+                    <a href="viber://chat/?number=+381644808703"><img class="imgicon" src="images/viber.png" alt="viber" width="50"> </a>
                     <p id="icon1">VIBER</p>
                 </p>
             </div>
             <div id="videoMessage2" class="styling">
 
                 <p class="videoClick">
-                   <a href="https://wa.me/+381644808703"><img class="imgicon" src="images/whatsup.png" alt="whatsup" width="50"></a>
-                    <p id="icon2">WHATSAPP</p>
+                    <a href="https://wa.me/381646971451?text=I%20need%20a%20taxi"><img class="imgicon" src="images/whatsup.png" alt="whatsup" width="50"></a>
+                    <p id="icon2">WHATS UP</p>
                 </p>
             </div>
             <div id="videoMessage3" class="styling">
@@ -148,10 +149,21 @@
             </nav>
         </div>
     </footer>
-    <div class="copyright"><span class="copyright__text">© 2021. All Rights Reserved. Designed by<a id="myLink" href="https://github.com/tatatatirac" target="_blank" title="TATATATIRAC" >Tatatatirac</a></span></div>
+    <div class="copyright"><span class="copyright__text">© 2021. All Rights Reserved. Designed by<a id="myLink" href="https://github.com/tatatatirac" target="_blank" title="Tatatatirac" >Tatatatirac</a></span></div>
 
-
+    <script>
+        ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://weatherwidget.io/js/widget.min.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'weatherwidget-io-js');
+    </script>
     <script src="js\bootstrap.min.js"></script>
+
 
 </body>
 
