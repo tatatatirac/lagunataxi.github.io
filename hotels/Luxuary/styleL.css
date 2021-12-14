@@ -1,0 +1,372 @@
+html,
+body {
+    color: #009dff;
+    margin: 0%;
+    background-color: #009dff;
+}
+
+#headline {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#videoDiv2 {
+    position: relative;
+}
+
+#video2 {
+    width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover;
+}
+
+.videoMessage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110%;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+#icon1 {
+    color: rgb(151, 85, 184);
+}
+
+#icon2 {
+    color: rgb(69, 226, 7);
+}
+
+#icon3 {
+    color: rgb(255, 255, 255);
+}
+
+#videoMessage4 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    color: white;
+}
+
+#videoMessage5 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    text-shadow: black 5px;
+    width: 100%;
+    height: 60%;
+    padding-top: 80px;
+}
+
+.get {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30%;
+    font-size: 4em;
+    text-align: center;
+}
+
+.videoMessage1 {
+    text-align: right;
+}
+
+.navbar {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    margin: 0px;
+    background-color: blue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(249 0 0);
+}
+
+footer {
+    position: sticky;
+}
+
+.container-fluid {
+    background-color: #009dff;
+    width: 100%;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase!important;
+}
+
+.videoClick {
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    /* margin: 10%; */
+}
+
+.videoClick:hover {
+    border-width: 5px white solid;
+    border-radius: 30%;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+#taxi {
+    text-align: center;
+}
+
+.social {
+    padding: 10px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+ ::marker {
+    color: transparent;
+}
+
+.copyright {
+    background-color: black;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+#myLink {
+    font-size: 1.3rem;
+    padding-left: 2%;
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: 600;
+}
+
+.imgicon {
+    margin-top: 20%;
+    width: 70px;
+    height: 70px;
+}
+
+#videoDiv2 {
+    position: relative;
+}
+
+#video2 {
+    width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover;
+}
+
+.videoMessage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110%;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+#icon1 {
+    color: rgb(151, 85, 184);
+}
+
+#icon2 {
+    color: rgb(69, 226, 7);
+}
+
+#icon3 {
+    color: rgb(255, 255, 255);
+}
+
+#videoMessage4 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    color: white;
+}
+
+#videoMessage5 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    text-shadow: black 5px;
+    width: 100%;
+    height: 60%;
+    padding-top: 80px;
+}
+
+.get {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30%;
+    font-size: 4em;
+    text-align: center;
+}
+
+.videoMessage1 {
+    text-align: right;
+}
+
+.navbar {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    margin: 0px;
+    background-color: blue;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(249 0 0);
+}
+
+footer {
+    position: sticky;
+}
+
+.container-fluid {
+    background-color: #009dff;
+    width: 100%;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase!important;
+}
+
+.videoClick {
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    /* margin: 10%; */
+}
+
+.videoClick:hover {
+    border-width: 5px white solid;
+    border-radius: 30%;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+#taxi {
+    text-align: center;
+}
+
+.social {
+    padding: 10px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+ ::marker {
+    color: transparent;
+}
+
+.copyright {
+    background-color: black;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+#myLink {
+    font-size: 1.3rem;
+    padding-left: 2%;
+}
+
+.nav-link {
+    font-size: large;
+    font-weight: 600;
+}
+
+.imgicon {
+    margin-top: 20%;
+    width: 80px;
+    height: 80px;
+}
